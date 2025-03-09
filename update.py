@@ -109,13 +109,13 @@ if DATABASE_URL:
 UPSTREAM_REPO = (
     config_file.get("UPSTREAM_REPO", "")
     or os.getenv("UPSTREAM_REPO", "")
-    or "https://github.com/HuntingBots/Drive"
+    or "https://github.com/HuntingBots-Team/TGH_Mirror"
 )
 
 UPSTREAM_BRANCH = (
     config_file.get("UPSTREAM_BRANCH", "")
     or os.getenv("UPSTREAM_BRANCH", "")
-    or "test"
+    or "HuntingBots"
 )
 
 if UPSTREAM_REPO:
@@ -125,8 +125,8 @@ if UPSTREAM_REPO:
     update = srun(
         [
             f"git init -q \
-                     && git config --global user.email e.anastayyar@gmail.com \
-                     && git config --global user.name mltb \
+                     && git config --global user.email huntingbots.tg@gmail.com \
+                     && git config --global user.name HuntingBots \
                      && git add . \
                      && git commit -sm update -q \
                      && git remote add origin {UPSTREAM_REPO} \
