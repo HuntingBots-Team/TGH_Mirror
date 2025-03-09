@@ -22,7 +22,7 @@ from tghbot import (
     sudo_users,
     user_data,
 )
-from tghbot.core.aeon_client import TgClient
+from tghbot.core.tgh_client import TgClient
 from tghbot.core.config_manager import Config
 from tghbot.core.torrent_manager import TorrentManager
 from tghbot.helper.ext_utils.db_handler import database
