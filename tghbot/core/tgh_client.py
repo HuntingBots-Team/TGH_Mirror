@@ -4,7 +4,7 @@ from pyrogram import Client, enums
 
 from tghbot import LOGGER
 
-from .config_manager import Config
+from tghbot.core.config_manager import Config
 
 
 class TgClient:
