@@ -5,7 +5,7 @@ from time import time
 from pyrogram.errors import FloodPremiumWait, FloodWait
 
 from tghbot import LOGGER, task_dict, task_dict_lock
-from tghbot.core.aeon_client import TgClient
+from tghbot.core.tgh_client import TgClient
 from tghbot.helper.ext_utils.task_manager import (
     check_running_tasks,
     stop_duplicate_check,
