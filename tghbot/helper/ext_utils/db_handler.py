@@ -7,7 +7,7 @@ from pymongo.errors import PyMongoError
 from pymongo.server_api import ServerApi
 
 from tghbot import LOGGER, qbit_options, rss_dict, user_data
-from tghbot.core.aeon_client import TgClient
+from tghbot.core.tgh_client import TgClient
 from tghbot.core.config_manager import Config
 
 
