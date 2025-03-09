@@ -8,13 +8,13 @@ from tghbot import (
     LOGGER,
     user_data,
 )
-from tghbot.core.aeon_client import TgClient
 from tghbot.core.config_manager import Config
-from tghbot.helper.aeon_utils.shorteners import short
+from tghbot.core.tgh_client import TgClient
 from tghbot.helper.ext_utils.db_handler import database
 from tghbot.helper.ext_utils.help_messages import nsfw_keywords
 from tghbot.helper.ext_utils.status_utils import get_readable_time
 from tghbot.helper.telegram_helper.button_build import ButtonMaker
+from tghbot.helper.tgh_utils.shorteners import short
 
 
 async def error_check(message):

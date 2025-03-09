@@ -6,11 +6,10 @@ from pyrogram.handlers import (
     MessageHandler,
 )
 
+from tghbot.core.tgh_client import TgClient
 from tghbot.helper.telegram_helper.bot_commands import BotCommands
 from tghbot.helper.telegram_helper.filters import CustomFilters
 from tghbot.modules import *
-
-from .aeon_client import TgClient
 
 
 def add_handlers():

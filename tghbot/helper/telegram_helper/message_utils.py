@@ -19,8 +19,8 @@ from tghbot import (
     task_dict_lock,
     user_data,
 )
-from tghbot.core.aeon_client import TgClient
 from tghbot.core.config_manager import Config
+from tghbot.core.tgh_client import TgClient
 from tghbot.helper.ext_utils.bot_utils import SetInterval
 from tghbot.helper.ext_utils.exceptions import TgLinkException
 from tghbot.helper.ext_utils.status_utils import get_readable_message

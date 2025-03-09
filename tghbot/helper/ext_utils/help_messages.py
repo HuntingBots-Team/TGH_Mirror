@@ -1,4 +1,4 @@
-from tghbot.core.aeon_client import TgClient
+from tghbot.core.tgh_client import TgClient
 from tghbot.helper.telegram_helper.bot_commands import BotCommands
 
 nsfw_keywords = [

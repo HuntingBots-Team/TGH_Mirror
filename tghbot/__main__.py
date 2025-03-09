@@ -3,20 +3,20 @@ from asyncio import gather
 
 from pyrogram.types import BotCommand
 
-from . import LOGGER, bot_loop
-from .core.config_manager import Config, SystemEnv
+from tghbot import LOGGER, bot_loop
+from tghbot.core.config_manager import Config, SystemEnv
 
 # Initialize Configurations
 LOGGER.info("Loading config...")
 Config.load()
 SystemEnv.load()
 
-from .core.startup import load_settings
+from tghbot.core.startup import load_settings
 
 bot_loop.run_until_complete(load_settings())
 
-from .core.aeon_client import TgClient
-from .helper.telegram_helper.bot_commands import BotCommands
+from tghbot.core.tgh_client import TgClient
+from tghbot.helper.telegram_helper.bot_commands import BotCommands
 
 # Commands and Descriptions
 COMMANDS = {

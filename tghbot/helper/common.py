@@ -23,9 +23,9 @@ from tghbot import (
     task_dict_lock,
     user_data,
 )
-from tghbot.core.aeon_client import TgClient
 from tghbot.core.config_manager import Config
-from tghbot.helper.aeon_utils.command_gen import (
+from tghbot.core.tgh_client import TgClient
+from tghbot.helper.tgh_utils.command_gen import (
     get_embed_thumb_cmd,
     get_metadata_cmd,
     get_watermark_cmd,

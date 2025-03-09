@@ -30,10 +30,10 @@ from tghbot import (
     sudo_users,
     task_dict,
 )
-from tghbot.core.aeon_client import TgClient
 from tghbot.core.config_manager import Config
 from tghbot.core.jdownloader_booter import jdownloader
 from tghbot.core.startup import update_nzb_options, update_variables
+from tghbot.core.tgh_client import TgClient
 from tghbot.core.torrent_manager import TorrentManager
 from tghbot.helper.ext_utils.bot_utils import SetInterval, new_task
 from tghbot.helper.ext_utils.db_handler import database
