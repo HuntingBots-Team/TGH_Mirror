@@ -9,8 +9,8 @@ from myjd import MyJdApi
 from tghbot import LOGGER
 from tghbot.helper.ext_utils.bot_utils import cmd_exec, new_task
 
-from .aeon_client import TgClient
-from .config_manager import Config
+from tghbot.core.tgh_client import TgClient
+from tghbot.core.config_manager import Config
 
 
 class JDownloader(MyJdApi):
