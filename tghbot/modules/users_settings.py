@@ -11,7 +11,7 @@ from pyrogram.filters import create
 from pyrogram.handlers import MessageHandler
 
 from tghbot import auth_chats, excluded_extensions, sudo_users, user_data
-from tghbot.core.aeon_client import TgClient
+from tghbot.core.tgh_client import TgClient
 from tghbot.core.config_manager import Config
 from tghbot.helper.ext_utils.bot_utils import (
     get_size_bytes,
