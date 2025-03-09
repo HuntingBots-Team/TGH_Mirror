@@ -30,7 +30,7 @@ from tghbot import (
     sudo_users,
     task_dict,
 )
-from tghbot.core.aeon_client import TgClient
+from tghbot.core.tgh_client import TgClient
 from tghbot.core.config_manager import Config
 from tghbot.core.jdownloader_booter import jdownloader
 from tghbot.core.startup import update_nzb_options, update_variables
