@@ -1,7 +1,7 @@
 from speedtest import Speedtest
 
 from tghbot import LOGGER
-from tghbot.core.aeon_client import TgClient
+from tghbot.core.tgh_client import TgClient
 from tghbot.helper.ext_utils.bot_utils import new_task
 from tghbot.helper.ext_utils.status_utils import get_readable_file_size
 from tghbot.helper.telegram_helper.message_utils import (
