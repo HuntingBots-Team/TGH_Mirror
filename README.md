@@ -1,10 +1,10 @@
-![](https://github.com/5hojib/5hojib/raw/main/images/Aeon-MLTB.gif)
+![](https://img3.teletype.in/files/2d/0f/2d0f8c72-3a3b-4500-8881-a0c9c50a62da.jpeg)
 
 ---
 
-# Aeon Bot
+# TGH Thing Leech Mirror Bot
 
-Aeon is a streamlined and feature-rich bot designed for efficient deployment and enhanced functionality.
+TGH is a streamlined and feature-rich bot designed for efficient deployment and enhanced functionality.
 
 ---
 
