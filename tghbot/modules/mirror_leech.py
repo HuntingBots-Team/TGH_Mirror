@@ -33,10 +33,16 @@ from tghbot.helper.mirror_leech_utils.download_utils.direct_downloader import (
 from tghbot.helper.mirror_leech_utils.download_utils.direct_link_generator import (
     direct_link_generator,
 )
-from tghbot.helper.mirror_leech_utils.download_utils.gd_download import add_gd_download
-from tghbot.helper.mirror_leech_utils.download_utils.jd_download import add_jd_download
+from tghbot.helper.mirror_leech_utils.download_utils.gd_download import (
+    add_gd_download,
+)
+from tghbot.helper.mirror_leech_utils.download_utils.jd_download import (
+    add_jd_download,
+)
 from tghbot.helper.mirror_leech_utils.download_utils.nzb_downloader import add_nzb
-from tghbot.helper.mirror_leech_utils.download_utils.qbit_download import add_qb_torrent
+from tghbot.helper.mirror_leech_utils.download_utils.qbit_download import (
+    add_qb_torrent,
+)
 from tghbot.helper.mirror_leech_utils.download_utils.rclone_download import (
     add_rclone_download,
 )

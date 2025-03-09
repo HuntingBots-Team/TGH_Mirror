@@ -12,7 +12,9 @@ from tghbot.core.torrent_manager import TorrentManager
 from tghbot.helper.ext_utils.bot_utils import bt_selection_buttons
 from tghbot.helper.ext_utils.task_manager import check_running_tasks
 from tghbot.helper.listeners.qbit_listener import on_download_start
-from tghbot.helper.mirror_leech_utils.status_utils.qbit_status import QbittorrentStatus
+from tghbot.helper.mirror_leech_utils.status_utils.qbit_status import (
+    QbittorrentStatus,
+)
 from tghbot.helper.telegram_helper.message_utils import (
     delete_message,
     send_message,

@@ -20,7 +20,9 @@ from tghbot.helper.ext_utils.bot_utils import new_task
 from tghbot.helper.ext_utils.files_utils import clean_unwanted
 from tghbot.helper.ext_utils.status_utils import get_readable_time, get_task_by_gid
 from tghbot.helper.ext_utils.task_manager import stop_duplicate_check
-from tghbot.helper.mirror_leech_utils.status_utils.qbit_status import QbittorrentStatus
+from tghbot.helper.mirror_leech_utils.status_utils.qbit_status import (
+    QbittorrentStatus,
+)
 from tghbot.helper.telegram_helper.message_utils import update_status_message
 
 

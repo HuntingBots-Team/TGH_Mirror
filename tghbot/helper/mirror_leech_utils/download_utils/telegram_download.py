@@ -11,7 +11,9 @@ from tghbot.helper.ext_utils.task_manager import (
     stop_duplicate_check,
 )
 from tghbot.helper.mirror_leech_utils.status_utils.queue_status import QueueStatus
-from tghbot.helper.mirror_leech_utils.status_utils.telegram_status import TelegramStatus
+from tghbot.helper.mirror_leech_utils.status_utils.telegram_status import (
+    TelegramStatus,
+)
 from tghbot.helper.telegram_helper.message_utils import send_status_message
 
 global_lock = Lock()

@@ -10,6 +10,7 @@ from aiofiles.os import remove
 from pyrogram.filters import regex, user
 from pyrogram.handlers import CallbackQueryHandler
 
+from myjd.exception import MYJDException
 from tghbot import LOGGER, jd_downloads, jd_listener_lock, task_dict, task_dict_lock
 from tghbot.core.jdownloader_booter import jdownloader
 from tghbot.helper.ext_utils.bot_utils import new_task
@@ -29,7 +30,6 @@ from tghbot.helper.telegram_helper.message_utils import (
     send_message,
     send_status_message,
 )
-from myjd.exception import MYJDException
 
 
 @new_task
